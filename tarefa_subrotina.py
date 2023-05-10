@@ -54,8 +54,8 @@ def areaCirculo():
     return areaCirculo
 
 print('SELECIONE A FUNÇÃO DESEJADA')
-print('1. Cálculo de média aritmética')
-print('2. Descobrir se um nome contém vogais')
+print('1. Descobrir se um nome contém vogais')
+print('2. Cálculo de média aritmética ')
 print('3. Cálculo da área de um círculo')
 menu = input(str('Digite a opção: '))
 
@@ -72,5 +72,8 @@ match menu:
     case '3':
         print('Função área do círculo selecionada')
         areaCirculo() # chama função area do círculo
+
+input()
+
 
 sys.exit

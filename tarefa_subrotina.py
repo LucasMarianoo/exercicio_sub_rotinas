@@ -5,15 +5,17 @@ import math
 
 os.system('cls||clear')
 
-# verifica média aritmética
+# read first score
 def lerN1():
     n1 = float(input('Nota 1:'))
     return n1
 
+# read second score
 def lerN2():
     n2 = float(input('Nota 2:'))
     return n2
 
+# arithmetic mean of two values
 def getMedia(n1 , n2):
     media = (n1+n2)/2
     return media
@@ -32,7 +34,7 @@ def executar():
     media = getMedia(nota1, nota2)
     mostrar(media)
 
-# verifica se o nome contem vogais
+# verify vowels in a word input
 def names():
     # Set up name variable with input
     name = str(input('Enter your name: ')) 
